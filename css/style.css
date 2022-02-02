@@ -16,22 +16,21 @@
 }
 .bg-color {
     background-color: var(--backgroundColor);       
-};
-.container-fluid {
+}
+main .container-fluid {
     height: calc(100vh - 50px - 1.4em);
     width: 100vw;
-};
-
+}
 .c-wrapper h4 {
     padding-top: 0.5em;
-};
+}
 .c-wrapper h5 {
     color: var(--textLight) !important;
     margin-top: 1em;
-};
+}
 .c-wrapper h6 {
     color: var(--textLight);
-};
+}
 .header .bg-color {
     background-color: var(--cardBackground) !important;
 }
