@@ -10,6 +10,6 @@
     <title>php-ajax-dischi</title>
 </head>
 <body>
-    
+    <?php include_once __DIR__ . '/partials/header.php' ?>
 </body>
 </html>
