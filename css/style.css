@@ -5,38 +5,6 @@
     --textLight: #797E7A;
     --textColor: white;
 }
-
-header .bg-color {
-    background-color: var(--cardBackground);
-}
-header .container-fluid img {
-    height: 50px;
-    margin: 0.7em 0;
-    margin-left: 1.8em;
-}
-main .bg-color {
-    background-color: var(--cardBackground);       
-};
-main .container-fluid {
-    height: calc(100vh - 50px - 1.4em);
-    width: 100vw;
-};
-.card-bg-color {
-    background-color: var(--cardBackground);
-}
-.col h4 {
-    padding-top: 0.5em
-};
-.col h5 {
-    color: var(--textLight);
-    margin-top: 1em
-};
-.col h6 {
-    color: var(--textLight);
-};
-.col img {
-    width: 100%;
-}
 .w-60 {
     width: 60%;
 }
@@ -46,3 +14,30 @@ main .container-fluid {
 .pt-6 {
     padding-top: 4em;
 }
+.bg-color {
+    background-color: var(--backgroundColor);       
+};
+.container-fluid {
+    height: calc(100vh - 50px - 1.4em);
+    width: 100vw;
+};
+
+.c-wrapper h4 {
+    padding-top: 0.5em;
+};
+.c-wrapper h5 {
+    color: var(--textLight) !important;
+    margin-top: 1em;
+};
+.c-wrapper h6 {
+    color: var(--textLight);
+};
+.header .bg-color {
+    background-color: var(--cardBackground) !important;
+}
+.header .container-fluid img {
+    height: 50px;
+    margin: 0.7em 0;
+    margin-left: 1.8em;
+}
+/* cards */
