@@ -1,0 +1,16 @@
+:root {
+    --main-bg-color: brown;
+    --backgroundColor: #1E2D3B;
+    --cardBackground: #2E3A46;
+    --textLight: #797E7A;
+    --textColor: white;
+}
+
+header .bg-color {
+    background-color: var(--cardBackground);
+}
+header .container-fluid img {
+    height: 50px;
+    margin: 0.7em 0;
+    margin-left: 1.8em;
+}
